@@ -56,6 +56,6 @@ h1{
     border: none;
     color: white;
     cursor: pointer;
-    transition: all .4s ease-in-out;
-    
+    letter-spacing: .2rem;
+    text-transform:uppercase;
 }
