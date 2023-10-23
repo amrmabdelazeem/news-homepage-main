@@ -6,6 +6,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom:1rem;
+}
+
+.w-logo{
+    width: 50%;
+}
+
+.menu-logo{
+    width: 70%;
+    display: flex;
 }
 
 .toggle-list{
@@ -38,4 +48,14 @@
 
 h1{
     font-weight: 800;
+}
+
+.btn{
+    padding: .5rem 1.2rem;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    
 }
