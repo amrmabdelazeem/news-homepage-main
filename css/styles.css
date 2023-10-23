@@ -9,9 +9,28 @@
 }
 
 .toggle-list{
-    width: 4rem;
     display: none;
+    background-color: hsl(36, 100%, 99%);
+    width: 250px;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    font-weight: 700;
 }
+
+.toggle-list img{
+    display: flex;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.list-content{
+    padding-left: 2rem;
+    padding-top: 7rem;
+}
+
 
 .image-container{
     width: 100%;
