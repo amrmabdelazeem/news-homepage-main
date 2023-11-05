@@ -83,3 +83,30 @@ h1{
     padding-bottom: 2rem;
     border-bottom: 1px hsl(236, 13%, 42%) solid;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.image-1{
+    padding-top: 1.5rem;
+    width: 100px;
+}
+
+.paragraph h2{
+    color: hsl(233, 8%, 79%);
+}
+
+.paragraph h3{
+    font-size: 1rem;
+    font-weight: 800;
+    padding-bottom: 0;
+}
+
+.paragraph p{
+    font-size: 1rem;
+    color: hsl(236, 13%, 42%);
+
+}
