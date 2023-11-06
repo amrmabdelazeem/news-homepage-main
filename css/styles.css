@@ -50,6 +50,10 @@ main{
     padding-top: 7rem;
 }
 
+.list-content p {
+    cursor: pointer;
+}
+
 
 .image-container{
     width: 100%;
