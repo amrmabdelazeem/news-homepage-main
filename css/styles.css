@@ -138,3 +138,9 @@ h1{
     color: hsl(236, 13%, 42%);
 
 }
+
+@media (min-width:1440px) {
+    h1{
+        color: red;
+    }
+}
