@@ -46,8 +46,6 @@ main{
 }
 
 .list-content{
-    /* display: flex;
-    flex-direction: column; */
     padding-left: 2rem;
     padding-top: 7rem;
 }
@@ -55,12 +53,16 @@ main{
 .list-content a{
     display: block;
     text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-weight: 200;
 }
 
 .list-content a:hover {
     cursor: pointer;
     color: hsl(35, 77%, 62%);
 }
+
+
 
 
 .image-container{
