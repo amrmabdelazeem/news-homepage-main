@@ -46,11 +46,18 @@ main{
 }
 
 .list-content{
+    /* display: flex;
+    flex-direction: column; */
     padding-left: 2rem;
     padding-top: 7rem;
 }
 
-.list-content p:hover {
+.list-content a{
+    display: block;
+    text-decoration: none;
+}
+
+.list-content a:hover {
     cursor: pointer;
     color: hsl(35, 77%, 62%);
 }
