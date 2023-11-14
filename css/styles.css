@@ -126,7 +126,7 @@ h1{
 
 .container{
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .3fr 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -198,7 +198,7 @@ h1{
     .grid-container{
         display: grid;
         gap: 1.5rem;
-        grid-template-rows: 300px 240px 300px;
+        grid-template-rows: 300px 240px 240px;
         grid-template-columns: 400px 400px 350px;
     }
 
@@ -265,5 +265,29 @@ h1{
     .last-area{
         grid-row: 3/4;
         grid-column: 1/4;
+        display:flex;
+        padding:0;
+        margin-top: 2rem;
+    }
+    .container{
+        grid-template-columns: 120px 280px;
+        grid-template-rows: 1fr;
+        gap: 1.5rem;
+    }
+
+    .image-1{
+        width: 120px;
+    }
+
+    .paragraph h2{
+        font-size: 2rem;
+    }
+
+    .paragraph h3{
+        font-size: 1.2rem;
+    }
+    .paragraph p{
+        padding-right: 2.5rem;
+        line-height: 1.5;
     }
 }
