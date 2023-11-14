@@ -183,8 +183,8 @@ h1{
 
     .grid-container{
         display: grid;
-        grid-template-rows: 1fr 1fr .5fr;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 400px 400px 400px;
+        grid-template-columns: repeat(3, 400px);
     }
     .logo-container{
     }
@@ -201,9 +201,23 @@ h1{
         grid-column: 1/2;
     }
 
+    .heading-container h1{
+        font-size: 4rem;
+    }
+
     .button-section{
         grid-row: 2/3;
         grid-column: 2/3;
+    }
+
+    .button-secion p{
+        padding-top: 2rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+    
+    .btn{
+        padding: 1rem 2rem;
     }
 
     .mid-area{
