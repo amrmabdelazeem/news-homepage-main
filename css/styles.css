@@ -191,14 +191,14 @@ h1{
     }
 
     a{
-        padding-left:3.2rem;
+        padding-left:3rem;
     }
 
 
     .grid-container{
         display: grid;
         gap: 1.5rem;
-        grid-template-rows: 300px 250px 300px;
+        grid-template-rows: 300px 240px 300px;
         grid-template-columns: 400px 400px 350px;
     }
 
@@ -245,12 +245,17 @@ h1{
         padding-left: 1.3rem;
     }
 
+
     .mid-area h2{
         font-size: 2.5rem;
     }
 
     .mid-area p{
         line-height: 1.5;
+    }
+
+    .mid-area p:last-child{
+        border: none;
     }
 
     .mid-area h3{
