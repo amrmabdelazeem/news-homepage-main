@@ -33,6 +33,7 @@ main{
     right: 0;
     font-size: 15px;
     font-weight: 700;
+    z-index: 1;
 }
 
 .toggle-list img{
@@ -153,7 +154,18 @@ h1{
 .paragraph p{
     font-size: 1rem;
     color: hsl(236, 13%, 42%);
+}
 
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
 }
 
 @media (min-width:1200px) {
