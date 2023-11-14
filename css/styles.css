@@ -55,6 +55,7 @@ main{
     text-decoration: none;
     color: hsl(236, 13%, 42%);
     font-weight: 200;
+    line-height: 2;
 }
 
 .list-content a:hover {
@@ -110,7 +111,7 @@ h1{
 
 .mid-area h3:hover{
     cursor:pointer;
-    color: hsl(5, 85%, 63%);
+    color: hsl(35, 77%, 62%);
 
 }
 
