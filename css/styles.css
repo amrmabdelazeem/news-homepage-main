@@ -152,7 +152,10 @@ h1{
 }
 
 @media (min-width:1200px) {
-
+    body{
+        display: flex;
+        justify-content: center;
+    }
     .menu-logo , #close-menu{
         display: none;
     }
@@ -164,6 +167,8 @@ h1{
     }
 
     .w-logo{
+        margin-top: 2rem;
+
     }
     .toggle-list{
         display: block;
@@ -175,18 +180,22 @@ h1{
 
     .list-content{
         display: flex;
-        justify-content: space-around;
-        padding-top: 2rem;
+        padding-top: 1rem;
         font-size: 1.2rem;
+        margin-top: 2rem;
+
+    }
+
+    a{
+        padding-left:3rem;
     }
 
 
     .grid-container{
         display: grid;
-        grid-template-rows: 400px 400px 400px;
+        gap: 2rem;
+        grid-template-rows: repeat(3, 300px);
         grid-template-columns: repeat(3, 400px);
-    }
-    .logo-container{
     }
 
     .image-container{
