@@ -28,10 +28,10 @@ Users should be able to:
 ##Desktop-View
 ![Desktop-view](<News homepage.png>)
 
-##Mobile-View
+##Mobile-View <br>
 ![Mobile-view](News-homepage-Mobile.png)
 
-##navbar-list
+##navbar-list <br>
 ![List](News-homepage-navbar-list.png)
 
 ##Focus-parts
