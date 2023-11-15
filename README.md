@@ -25,16 +25,16 @@ Users should be able to:
 
 ### Screenshot
 
-##Desktop-View
+## Desktop-View
 ![Desktop-view](<News homepage.png>)
 
-##Mobile-View <br>
+## Mobile-View <br>
 ![Mobile-view](News-homepage-Mobile.png)
 
-##navbar-list <br>
+## navbar-list <br>
 ![List](News-homepage-navbar-list.png)
 
-##Focus-parts
+## Focus-parts
 ![navbar-hover](firefox_qM5bKV5Y8T.jpg)
 ---
 ![Heading-hover](firefox_E8cbizpFHz.jpg)
