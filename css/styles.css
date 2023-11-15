@@ -217,7 +217,7 @@ h1{
     }
 
     .image-container{
-        background-image: url("assets/images/image-web-3-desktop.jpg");
+        background-image: url("../assets/images/image-web-3-desktop.jpg");
         height: 500px;
         background-size: contain;
         grid-column: span 2;
